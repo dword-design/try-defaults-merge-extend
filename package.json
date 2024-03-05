@@ -1,0 +1,42 @@
+{
+  "name": "try-defaults",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "dword-design/try-defaults",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "depcheck": "base depcheck",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^11.0.8",
+    "deepmerge": "^4.3.1",
+    "default-composer": "^0.6.0",
+    "defaults": "^3.0.0",
+    "defu": "^6.1.4",
+    "extend": "^3.0.2",
+    "just-extend": "^6.2.0",
+    "lodash-es": "^4.17.21",
+    "merge-anything": "^5.1.7",
+    "merge-options": "^3.0.4",
+    "xtend": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
